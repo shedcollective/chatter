@@ -1,6 +1,6 @@
 <?php
 
-namespace DevDojo\Chatter;
+namespace ShedCollective\Chatter;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -15,7 +15,7 @@ class ChatterServiceProvider extends ServiceProvider
     {
         $this->loadTranslationsFrom(__DIR__.'/Lang', 'chatter');
         $this->publishes([
-            __DIR__.'/../public/assets' => public_path('vendor/devdojo/chatter/assets'),
+            __DIR__.'/../public/assets' => public_path('vendor/shedcollective/chatter/assets'),
         ], 'chatter_assets');
 
         $this->publishes([

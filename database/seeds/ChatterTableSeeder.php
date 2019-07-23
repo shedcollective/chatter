@@ -196,9 +196,9 @@ class ChatterTableSeeder extends Seeder
                         'id'                    => 1,
                         'chatter_discussion_id' => 3,
                         'user_id'               => 1,
-                        'body'                  => '<p>My name is Tony and I\'m a developer at <a href="https://devdojo.com" target="_blank">https://devdojo.com</a> and I also work with an awesome company in PB called The Control Group: <a href="http://www.thecontrolgroup.com" target="_blank">http://www.thecontrolgroup.com</a></p>
+                        'body'                  => '<p>My name is Tony and I\'m a developer at <a href="https://shedcollective.com" target="_blank">https://shedcollective.com</a> and I also work with an awesome company in PB called The Control Group: <a href="http://www.thecontrolgroup.com" target="_blank">http://www.thecontrolgroup.com</a></p>
         <p>You can check me out on twitter at <a href="http://www.twitter.com/tnylea" target="_blank">http://www.twitter.com/tnylea</a></p>
-        <p>or you can subscribe to me on YouTube at <a href="http://www.youtube.com/devdojo" target="_blank">http://www.youtube.com/devdojo</a></p>',
+        <p>or you can subscribe to me on YouTube at <a href="http://www.youtube.com/shedcollective" target="_blank">http://www.youtube.com/shedcollective</a></p>',
                         'created_at' => '2016-08-18 14:27:56',
                         'updated_at' => '2016-08-18 14:27:56',
                     ],
@@ -218,7 +218,7 @@ class ChatterTableSeeder extends Seeder
                     'id'                    => 6,
                     'chatter_discussion_id' => 7,
                     'user_id'               => 1,
-                    'body'                  => '<p>If you would like to leave some feedback or have any issues be sure to visit the github page here: <a href="https://github.com/thedevdojo/chatter" target="_blank">https://github.com/thedevdojo/chatter</a>&nbsp;and I\'m sure I can help out.</p>
+                    'body'                  => '<p>If you would like to leave some feedback or have any issues be sure to visit the github page here: <a href="https://github.com/theshedcollective/chatter" target="_blank">https://github.com/theshedcollective/chatter</a>&nbsp;and I\'m sure I can help out.</p>
         <p>Let\'s make this package the go to Laravel Forum package. Feel free to contribute and share your ideas :)</p>',
                 'created_at' => '2016-08-18 14:42:29',
                 'updated_at' => '2016-08-18 14:42:29',
@@ -241,7 +241,7 @@ class ChatterTableSeeder extends Seeder
         <li><span style="line-height: 1.6;">add a numbered list</span></li>
         </ol>
         <p style="padding-left: 30px;"><span style="line-height: 1.6;">We can choose to indent our text</span></p>
-        <p><span style="line-height: 1.6;">Post links: <a href="https://devdojo.com" target="_blank">https://devdojo.com</a></span></p>
+        <p><span style="line-height: 1.6;">Post links: <a href="https://shedcollective.com" target="_blank">https://shedcollective.com</a></span></p>
         <p><span style="line-height: 1.6;">and add images:</span></p>
         <p><span style="line-height: 1.6;"><img src="https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif" alt="" width="300" height="300" /></span></p>',
                 'created_at' => '2016-08-18 14:46:38',
@@ -262,7 +262,7 @@ class ChatterTableSeeder extends Seeder
             'chatter_discussion_id' => 9,
             'user_id'               => 1,
             'body'                  => '<p>Hey There!</p>
-        <p>My name is Tony and I\'m the creator of this package that you\'ve just installed. Thanks for checking out it out and if you have any questions or want to contribute be sure to checkout the repo here: <a href="https://github.com/thedevdojo/chatter" target="_blank">https://github.com/thedevdojo/chatter</a></p>
+        <p>My name is Tony and I\'m the creator of this package that you\'ve just installed. Thanks for checking out it out and if you have any questions or want to contribute be sure to checkout the repo here: <a href="https://github.com/theshedcollective/chatter" target="_blank">https://github.com/theshedcollective/chatter</a></p>
         <p>Happy programming!</p>',
             'created_at' => '2016-08-18 14:59:37',
             'updated_at' => '2016-08-18 14:59:37',

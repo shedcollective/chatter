@@ -1,11 +1,11 @@
-<p align="center"><img width="300" src="https://raw.githubusercontent.com/thedevdojo/chatter/master/public/assets/images/logo.png"></p>
+<p align="center"><img width="300" src="https://raw.githubusercontent.com/theshedcollective/chatter/master/public/assets/images/logo.png"></p>
 
 <p align="center">
-<a href="https://travis-ci.org/thedevdojo/chatter"><img src="https://travis-ci.org/thedevdojo/chatter.svg?branch=master" alt="Build Status"></a>
+<a href="https://travis-ci.org/theshedcollective/chatter"><img src="https://travis-ci.org/theshedcollective/chatter.svg?branch=master" alt="Build Status"></a>
 <a href="https://styleci.io/repos/64518333/shield?style=flat"><img src="https://styleci.io/repos/64518333/shield?style=flat" alt="Build Status"></a>
-<a href="https://packagist.org/packages/devdojo/chatter"><img src="https://poser.pugx.org/devdojo/chatter/downloads.svg?format=flat" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/devdojo/chatter"><img src="https://poser.pugx.org/devdojo/chatter/v/stable.svg?format=flat" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/tcg/voyager"><img src="https://poser.pugx.org/devdojo/chatter/license.svg?format=flat" alt="License"></a>
+<a href="https://packagist.org/packages/shedcollective/chatter"><img src="https://poser.pugx.org/shedcollective/chatter/downloads.svg?format=flat" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/shedcollective/chatter"><img src="https://poser.pugx.org/shedcollective/chatter/v/stable.svg?format=flat" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/tcg/voyager"><img src="https://poser.pugx.org/shedcollective/chatter/license.svg?format=flat" alt="License"></a>
 </p>
 
 # Laravel Forum Package - Chatter
@@ -17,7 +17,7 @@ Quick Note: If this is a new project, make sure to install the default user auth
 1. Include the package in your project
 
     ```
-    composer require "devdojo/chatter=0.2.*"
+    composer require "shedcollective/chatter=0.2.*"
     ```
 
 2. Add the service provider to your `config/app.php` providers array:
@@ -25,13 +25,13 @@ Quick Note: If this is a new project, make sure to install the default user auth
    **If you're installing on Laravel 5.5+ skip this step**
 
     ```
-    DevDojo\Chatter\ChatterServiceProvider::class,
+    ShedCollective\Chatter\ChatterServiceProvider::class,
     ```
 
 3. Publish the Vendor Assets files by running:
 
     ```
-    php artisan vendor:publish --provider="DevDojo\Chatter\ChatterServiceProvider"
+    php artisan vendor:publish --provider="ShedCollective\Chatter\ChatterServiceProvider"
     ```
 
 4. Now that we have published a few new files to our application we need to reload them with the following command:
@@ -73,7 +73,7 @@ Now, visit your site.com/forums and you should see your new forum in front of yo
 Make sure that your composer.json file is requiring the latest version of chatter:
 
 ```
-"devdojo/chatter": "0.2.*"
+"shedcollective/chatter": "0.2.*"
 ```
 
 Then you'll run:
@@ -124,7 +124,7 @@ Trumbowyg requires jQuery >= 1.8 to be included.
 
 ### VIDEOS
 
-[Introduction and Installation of Chatter](https://devdojo.com/episode/create-a-laravel-forum)
+[Introduction and Installation of Chatter](https://shedcollective.com/episode/create-a-laravel-forum)
 
 ### Configuration
 
@@ -161,8 +161,8 @@ Since the forum uses your master layout file, you will need to include the neces
 
 In order to override Chatter's built in views, simply create a `chatter` folder in your `vendor` views folder, i.e. `ROOT/resources/views/vendor/chatter`. Then simply drop in the Chatter view files you would like to override.
 
-- [home.blade.php](https://github.com/thedevdojo/chatter/blob/master/src/Views/home.blade.php)
-- [discussion.blade.php](https://github.com/thedevdojo/chatter/blob/master/src/Views/discussion.blade.php)
+- [home.blade.php](https://github.com/theshedcollective/chatter/blob/master/src/Views/home.blade.php)
+- [discussion.blade.php](https://github.com/theshedcollective/chatter/blob/master/src/Views/discussion.blade.php)
 
 ### Custom Function Hooks for the forum
 
@@ -211,7 +211,7 @@ For example, to register a listener for the "before new discussion" event, add t
 
 ```php
 protected $listen = [
-    'DevDojo\Chatter\Events\ChatterBeforeNewDiscussion' => [
+    'ShedCollective\Chatter\Events\ChatterBeforeNewDiscussion' => [
         'App\Listeners\HandleNewDiscussion',
     ],
 ];
@@ -237,4 +237,4 @@ and
 
 ### Screenshots
 
-![](https://raw.githubusercontent.com/thedevdojo/chatter/master/public/assets/images/chatter-screenshot.jpg)
+![](https://raw.githubusercontent.com/theshedcollective/chatter/master/public/assets/images/chatter-screenshot.jpg)
